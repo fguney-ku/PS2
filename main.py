@@ -81,12 +81,17 @@ def turnRoutine(proverb, madeGuesses, currentScore, vowelsLocs, revealedVowelsLo
   """
   while userChoice not in ["1", "2", "3"]:
     userChoice = input("Press 1 to : Guess a consonant\nPress 2 to : Open a vowel\nPress 3 to : Guess the whole proverb\nYour choice is: ")
+    # For the autograder
+    userChoice = userChoice.splitlines()[0] 
   
 
   if userChoice == "1":
     """If user chooses 1, they will make a consonant guess. Take the input, make it lowercase."""
     """YOUR CODE HERE"""
     # guess = 
+    
+    # Uncomment the line below for the autograder
+    # guess = guess.splitlines()[0] 
     """END OF YOUR CODE"""
     
     """
@@ -163,6 +168,9 @@ def turnRoutine(proverb, madeGuesses, currentScore, vowelsLocs, revealedVowelsLo
     """If user chooses 3, they will try to guess the whole proverb. Take the input, make it lowercase."""
     """YOUR CODE HERE"""
     # guess = 
+
+    # Uncomment the line below for the autograder
+    # guess = guess.splitlines()[0] 
     """END OF YOUR CODE"""
 
     """If, the guess is correct 
