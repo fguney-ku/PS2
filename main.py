@@ -90,9 +90,10 @@ def turnRoutine(proverb, madeGuesses, currentScore, vowelsLocs, revealedVowelsLo
     """YOUR CODE HERE"""
     # guess = 
     
-    # Uncomment the line below for the autograder
-    # guess = guess.splitlines()[0] 
+    
     """END OF YOUR CODE"""
+    # For the autograder
+    guess = guess.splitlines()[0] 
     
     """
     If, the guess is not a consonant deduce 75 points from current score.
@@ -169,9 +170,10 @@ def turnRoutine(proverb, madeGuesses, currentScore, vowelsLocs, revealedVowelsLo
     """YOUR CODE HERE"""
     # guess = 
 
-    # Uncomment the line below for the autograder
-    # guess = guess.splitlines()[0] 
+    
     """END OF YOUR CODE"""
+    # For the autograder
+    guess = guess.splitlines()[0] 
 
     """If, the guess is correct 
     Count how many numbers are still hidden. (Not revealed vowels and not guessed consonants)
